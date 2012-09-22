@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="#FFFFFF"
+    android:orientation="vertical" >
+
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:padding="10dp"
+        android:text="@string/select"
+        android:textColor="#000000"
+        android:textSize="20dp" />
+
+    <ScrollView
+        android:id="@+id/scrollView1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+            
+
+    
+		    <Button
+		        android:id="@+id/buttonToDoList"
+		        android:layout_width="match_parent"
+		        android:layout_height="70dp"
+		        android:layout_margin="3dp"
+		        android:textSize="22dp"
+		        android:background="#99CC00"
+		        android:text="@string/buttonToDoListText" />
+		    
+		    <Button
+		        android:id="@+id/buttonStopWatch"
+		        android:layout_width="match_parent"
+		        android:layout_height="60dp"
+		        android:layout_margin="3dp"
+		        android:textSize="22dp"
+		        android:background="#AA66CC"
+		        android:text="@string/buttonStopWatchText" />
+		    
+		    <Button
+		        android:id="@+id/buttonMap"
+		        android:layout_width="match_parent"
+		        android:layout_height="60dp"
+		        android:layout_margin="3dp"
+		        android:textSize="22dp"
+		        android:background="#FFBB33"
+		        android:text="@string/buttonMapText" />
+		    
+		
+		
+		    <TextView
+		        android:id="@+id/textViewInfo"
+		        android:layout_width="match_parent"
+		        android:layout_height="wrap_content"
+		        android:gravity="center"
+		        android:layout_margin="3dp"
+		        android:padding="10dp"
+		        android:textColor="#000000"
+		        android:text="@string/info" />	
+		        
+		    <Button
+		        android:id="@+id/emailMeActivityStarterButton"
+		        android:layout_width="match_parent"
+		        android:layout_height="45dp"
+		        android:layout_margin="3dp"
+		        android:textSize="22dp"
+		        android:background="#14c1ea"
+		        android:text="@string/buttonEmailMeText" />
+		        
+		            
+            
+        </LinearLayout>
+    </ScrollView>
+
+    
+
+</LinearLayout>

@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="#FFFFFF"
+    android:weightSum="40"
+    android:orientation="vertical" >
+
+
+     
+	<com.google.android.maps.MapView
+	    xmlns:android="http://schemas.android.com/apk/res/android"
+	    android:id="@+id/mapview"
+	    android:layout_width="fill_parent"
+	    android:layout_height="wrap_content"
+	    android:clickable="true"
+	    android:layout_weight="39"
+	    android:apiKey="0zU_c0P56oAvG9W5S1NLjOYjTCxnpnZ90hHM9BQ"
+	/>
+
+	<Button
+	    android:id="@+id/chooseCity"
+	    style="?android:attr/buttonStyleSmall"
+	    android:layout_width="match_parent"
+	    android:layout_height="wrap_content"
+	    android:layout_weight="1"
+	    android:text="@string/chooseCityText" />
+
+</LinearLayout>

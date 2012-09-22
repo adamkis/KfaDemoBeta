@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+   	android:layout_height="fill_parent"
+   	android:orientation="vertical"
+   	android:background="#FFFFFF" >
+        
+	    <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+    
+		    <TextView
+		        android:id="@+id/header"
+		        android:layout_width="fill_parent"
+		        android:layout_height="wrap_content"
+		        android:background="@drawable/blueroundshape"
+		        android:gravity="center"
+		        android:text="@string/stopWatchHeader"
+		        android:padding="10dp"
+		        android:textSize="18sp"
+		        android:textColor="#FFFFFF" />
+		
+		    <Chronometer
+		        android:id="@+id/chronometer1"
+		        android:layout_width="wrap_content"
+		        android:layout_height="wrap_content"
+		        android:layout_gravity="center"
+		        android:layout_margin="20dp"
+		        android:textColor="#000000" />
+		    
+		
+		
+		    <Button
+		        android:id="@+id/startButton"
+		        android:layout_width="match_parent"
+		        android:layout_height="wrap_content"
+		        android:text="@string/stopWatchStart" />
+		
+		    <Button
+		        android:id="@+id/stopButton"
+		        android:layout_width="match_parent"
+		        android:layout_height="wrap_content"
+		        android:text="@string/stopWatchStop" />
+		
+		    <Button
+		        android:id="@+id/resetButton"
+		        style="?android:attr/buttonStyleSmall"
+		        android:layout_width="match_parent"
+		        android:layout_height="wrap_content"
+		        android:layout_marginTop="20dp"
+		        android:text="@string/stopWatchReset" />
+		    
+		    <TextView
+		        android:id="@+id/footer"
+		        android:layout_width="fill_parent"
+		        android:layout_height="wrap_content"
+		        android:layout_marginTop="30dp"
+		        android:textColor="#FFFFFF"
+		        android:textSize="12sp"
+		        android:background="@drawable/greyroundshape"
+		        android:gravity="center"
+		        android:text="@string/stopWatchInfo"
+		        android:padding="10dp" />
+
+	    </LinearLayout>
+</ScrollView>

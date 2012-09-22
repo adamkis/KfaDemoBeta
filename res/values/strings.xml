@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources >
+    
+    <string name="app_name">KfaDemo Beta</string>
+    <string name="select">Select a feature:</string>
+    <string name="buttonTipCalcText">TipCalculator</string>
+    <string name="buttonToDoListText">To-do list with SOAP synch to a custom mini-cloud</string>
+    <string name="buttonStopWatchText">StopWatch with background service and notifications</string>
+    <string name="buttonMapText">Distance calculator drawing on Google maps</string>
+    <string name="info">###</string>
+    
+    <string name="billAmountText">Bill amount:</string>
+    <string name="tipPercentageText">How was the service?</string>
+    
+    <string name="calculate">Calculate</string>
+    <string name="tipResult">Result</string>
+    
+    
+    <string name="typeToDoToAdd">Type "To-do" item to add&#8230;</string>
+    <string name="addButtonText">Add</string>
+    <string name="footerText">Please long click an item</string>
+    
+    
+    <string name="stopWatchHeader">Stopwatch with background service</string>
+    <string name="stopWatchStart">Start</string>
+    <string name="stopWatchStop">Stop</string>
+    <string name="stopWatchReset">Reset</string>
+    <string name="stopWatchInfo">Press Back when stopped to finish your service</string>
+    
+    <string name="mapInfo">I:</string>
+    
+	<string name="buttonEmailMeText">Email me</string>
+	
+	
+	<string name="todoListInfo1">The list synchronizes itself to the mini-cloud. Check the webpage:\nKfaDemo.hostzi.com\nYou can access your list with your Session ID generated on installation. Your ID is:\n</string>
+	<string name="todoListInfo2">\n(shown in the footer later).\n\nLong click an item to delete.</string>
+	
+	<string name="todoUsage">Usage</string>
+
+	<string name="chooseCityText">Choose a city</string>
+	
+	
+	
+	<string name="aydsfc"></string>
+	<string name="regregg"></string>
+	<string name="sdsvd"></string>
+	<string name="grgggr"></string>
+	<string name="sefds"></string>
+	<string name="reghhh"></string>
+	
+
+
+
+</resources>

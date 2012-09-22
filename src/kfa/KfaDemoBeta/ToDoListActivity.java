@@ -37,7 +37,7 @@ public class ToDoListActivity extends Activity {
 	
 	ListView toDoListView ;
 	
-	// List of all todos. Elements: String[]{"ID of todo", "Text of todo"}
+	// List of all todos. Structure of elements: String[]{"ID of todo", "Text of todo"}
 	// This is the structure, the SQLite DB returns, when the whole list is fetched
 	static ArrayList<String[]> toDoItems ;
 	// List of all todos, just the texts
